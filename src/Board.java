@@ -1,11 +1,10 @@
 import java.util.*;
 
 /**
- * This represents the board.  Really what it is going to do is just have a 2d array of the vehicles
- * (which we'll refer to as grid), and it will be in charge of doing the bounds type checking for doing any of the moves.
- * It will also have a method display board which will give back a string representation of the board
+ * This represents the board.  It contains a 2d array of the vehicles
+ * (referred later to as grid), and will be in charge of doing the bounds type checking for doing any of the moves.
+ * It will also have a method display board which will give back a string representation of the board.
  * 
- * @author Osvaldo
  *
  */
 
@@ -14,12 +13,9 @@ public class Board {
 	ArrayList<Vehicle> vehicles;
 	int m_NumRows;
 	int m_NumCols;
-	
-	//TODO Add the other methods that are in the handout, and fill out the rest of this file
-	
+		
 	/**
 	 * Constructor for the board which sets up an empty grid of size rows by columns
-	 * Use the first array index as the rows and the second index as the columns
 	 * 
 	 * @param rows number of rows on the board
 	 * @param cols number of columns on the board
